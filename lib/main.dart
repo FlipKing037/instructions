@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instructions/Views/main_view.dart';
 
 void main() {
   runApp(const Instructions());
@@ -9,6 +10,8 @@ class Instructions extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return const MaterialApp(
+      home: InstructionView(),
+    );
   }
 }
