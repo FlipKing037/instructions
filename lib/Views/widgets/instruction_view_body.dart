@@ -6,10 +6,18 @@ class InstructionViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [
-        AppBarWidget(),
-      ],
+    return const Padding(
+      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          AppBarWidget(),
+          Text(
+            'Accept Process: ',
+            style: TextStyle(fontSize: 18),
+          ),
+        ],
+      ),
     );
   }
 }

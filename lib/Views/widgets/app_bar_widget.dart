@@ -7,9 +7,6 @@ class AppBarWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Row(
       children: [
-        SizedBox(
-          height: 100,
-        ),
         Text(
           'Instrctions',
           style: TextStyle(fontSize: 16),
