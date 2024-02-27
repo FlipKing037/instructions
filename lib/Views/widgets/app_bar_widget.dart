@@ -5,6 +5,18 @@ class AppBarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Row(
+      children: [
+        SizedBox(
+          height: 100,
+        ),
+        Text(
+          'Instrctions',
+          style: TextStyle(fontSize: 16),
+        ),
+        Spacer(),
+        Icon(Icons.close)
+      ],
+    );
   }
 }
