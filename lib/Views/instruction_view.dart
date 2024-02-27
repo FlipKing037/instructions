@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instructions/Views/widgets/app_bar_widget.dart';
+import 'package:instructions/Views/widgets/instruction_view_body.dart';
 
 class InstructionView extends StatelessWidget {
   const InstructionView({super.key});
@@ -7,7 +7,7 @@ class InstructionView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: AppBarWidget(),
+      body: InstructionViewBody(),
     );
   }
 }
